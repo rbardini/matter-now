@@ -1,0 +1,47 @@
+{
+  "name": "matter-now",
+  "version": "0.0.0-development",
+  "description": "Append the current date to the YAML front matter of Markdown files",
+  "keywords": [
+    "front-matter",
+    "yaml",
+    "markdown",
+    "date",
+    "time",
+    "datetime",
+    "timestamp",
+    "now"
+  ],
+  "homepage": "https://github.com/rbardini/matter-now",
+  "bugs": {
+    "url": "https://github.com/rbardini/matter-now/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rbardini/matter-now.git"
+  },
+  "license": "MIT",
+  "author": "Rafael Bardini <rafael@rbardini.com> (https://rbardini.com)",
+  "main": "index.js",
+  "bin": "./bin/matter-now",
+  "files": [
+    "bin/*",
+    "*.js"
+  ],
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore . bin/*"
+  },
+  "dependencies": {
+    "commander": "4.1.0",
+    "gray-matter": "4.0.2",
+    "moment": "2.24.0"
+  },
+  "devDependencies": {
+    "eslint": "6.8.0",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint-plugin-import": "2.20.0",
+    "husky": "4.2.1",
+    "lint-staged": "10.0.4",
+    "semantic-release": "17.0.1"
+  }
+}

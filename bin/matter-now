@@ -1,0 +1,18 @@
+#!/usr/bin/env node
+const program = require('commander');
+const { version } = require('../package.json');
+
+const matterNow = require('../');
+
+program
+  .version(version, '-v, --version')
+  .usage('<file...>')
+  .parse(process.argv);
+
+const files = program.args;
+
+if (files.length > 0) {
+  matterNow(files, program);
+} else {
+  program.help();
+}
