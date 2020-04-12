@@ -22,8 +22,9 @@ $ matter-now
 Usage: matter-now <file...>
 
 Options:
-  -v, --version  output the version number
-  -h, --help     output usage information
+  -f, --format <format>  Moment.js date format
+  -v, --version          output the version number
+  -h, --help             display help for command
 ```
 
 matter-now can also be used with [lint-staged](https://github.com/okonet/lint-staged) to append dates to git staged Markdown files:
