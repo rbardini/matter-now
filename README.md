@@ -19,7 +19,7 @@ npm install -g matter-now
 
 ```console
 $ matter-now
-Usage: matter-now <file...>
+Usage: matter-now [options] <file...>
 
 Options:
   -f, --format <format>  Moment.js date format

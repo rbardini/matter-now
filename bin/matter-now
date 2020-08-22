@@ -5,7 +5,7 @@ const { version } = require('../package.json');
 const matterNow = require('..');
 
 program
-  .usage('<file...>')
+  .usage('[options] <file...>')
   .option('-f, --format <format>', 'Moment.js date format')
   .version(version, '-v, --version')
   .parse(process.argv);
