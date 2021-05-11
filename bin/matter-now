@@ -6,6 +6,7 @@ const matterNow = require('..');
 
 program
   .usage('[options] <file...>')
+  .option('-a, --attr <attribute>', 'front matter attribute', 'date')
   .option('-f, --format <format>', 'Moment.js date format')
   .version(version, '-v, --version')
   .parse(process.argv);
