@@ -14,7 +14,7 @@ program
 const files = program.args;
 
 if (files.length > 0) {
-  matterNow(files, program);
+  matterNow(files, program.opts());
 } else {
   program.help();
 }
