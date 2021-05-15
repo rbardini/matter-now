@@ -1,8 +1,11 @@
 #!/usr/bin/env node
-const program = require('commander');
-const { version } = require('../package.json');
+import fs from 'node:fs';
+import program from 'commander';
+import matterNow from '../index.js';
 
-const matterNow = require('..');
+const { version } = JSON.parse(
+  fs.readFileSync(new URL('../package.json', import.meta.url)),
+);
 
 program
   .usage('[options] <file...>')

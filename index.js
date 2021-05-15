@@ -1,11 +1,11 @@
-const fs = require('fs');
-const grayMatter = require('gray-matter');
-const moment = require('moment');
+import fs from 'node:fs';
+import grayMatter from 'gray-matter';
+import moment from 'moment';
 
 const hasMatter = (matter) => matter.isEmpty || Object.keys(matter.data).length > 0;
 const hasAttr = (matter, attr) => attr in matter.data;
 
-module.exports = (files, { attr, format }) => files.forEach((file) => {
+export default (files, { attr, format }) => files.forEach((file) => {
   const matter = grayMatter.read(file, {});
 
   if (!hasMatter(matter) || hasAttr(matter, attr)) {
