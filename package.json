@@ -23,7 +23,7 @@
   "license": "MIT",
   "author": "Rafael Bardini <rafael@rbardini.com> (https://rbardini.com)",
   "type": "module",
-  "main": "index.js",
+  "exports": "./index.js",
   "bin": "./bin/matter-now.js",
   "files": [
     "bin/*",
