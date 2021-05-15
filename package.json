@@ -24,7 +24,7 @@
   "author": "Rafael Bardini <rafael@rbardini.com> (https://rbardini.com)",
   "type": "module",
   "main": "index.js",
-  "bin": "./bin/matter-now",
+  "bin": "./bin/matter-now.js",
   "files": [
     "bin/*",
     "*.js"
