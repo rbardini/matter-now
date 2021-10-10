@@ -30,20 +30,20 @@
     "*.js"
   ],
   "scripts": {
-    "lint": "eslint --ignore-path .gitignore . bin/*",
+    "lint": "eslint --ignore-path .gitignore .",
     "prepare": "husky install"
   },
   "dependencies": {
-    "commander": "7.2.0",
+    "commander": "8.2.0",
     "gray-matter": "4.0.3",
     "moment": "2.29.1"
   },
   "devDependencies": {
     "eslint": "7.26.0",
     "eslint-config-airbnb-base": "14.2.1",
-    "eslint-plugin-import": "2.23.2",
-    "husky": "6.0.0",
-    "lint-staged": "11.0.0"
+    "eslint-plugin-import": "2.24.2",
+    "husky": "7.0.2",
+    "lint-staged": "11.2.2"
   },
   "engines": {
     "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
