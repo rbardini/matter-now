@@ -2,8 +2,7 @@
 
 [![npm package version](https://img.shields.io/npm/v/matter-now)](https://www.npmjs.com/package/matter-now)
 [![Build status](https://img.shields.io/github/workflow/status/rbardini/matter-now/Main)](https://github.com/rbardini/matter-now/actions)
-[![Dependencies status](https://img.shields.io/david/rbardini/matter-now)](https://david-dm.org/rbardini/matter-now)
-[![devDependencies status](https://img.shields.io/david/dev/rbardini/matter-now)](https://david-dm.org/rbardini/matter-now?type=dev)
+[![Dependencies status](https://img.shields.io/librariesio/release/npm/matter-now)](https://libraries.io/npm/matter-now)
 
 Append the current date to the YAML front matter of Markdown files. Useful for adding the published date to static content files like blog posts.
 
