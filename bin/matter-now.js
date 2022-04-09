@@ -10,7 +10,7 @@ const { version } = JSON.parse(
 program
   .usage('[options] <file...>')
   .option('-a, --attr <attribute>', 'front matter attribute', 'date')
-  .option('-f, --format <format>', 'Moment.js date format')
+  .option('-f, --format <format>', 'date-fns date format', "yyyy-MM-dd'T'HH:mm:ssxxx")
   .version(version, '-v, --version')
   .parse(process.argv);
 

@@ -22,7 +22,7 @@ Usage: matter-now [options] <file...>
 
 Options:
   -a, --attr <attribute>  front matter attribute (default: "date")
-  -f, --format <format>   Moment.js date format
+  -f, --format <format>   date-fns date format (default: "yyyy-MM-dd'T'HH:mm:ssxxx")
   -v, --version           output the version number
   -h, --help              display help for command
 ```

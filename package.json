@@ -35,8 +35,8 @@
   },
   "dependencies": {
     "commander": "^9.0.0",
-    "gray-matter": "^4.0.0",
-    "moment": "^2.0.0"
+    "date-fns": "^2.0.0",
+    "gray-matter": "^4.0.0"
   },
   "devDependencies": {
     "eslint": "8.13.0",
