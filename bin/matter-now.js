@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import fs from 'node:fs';
-import program from 'commander';
+import { program } from 'commander';
 import matterNow from '../index.js';
 
 const { version } = JSON.parse(
