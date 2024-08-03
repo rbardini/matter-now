@@ -29,23 +29,12 @@
     "bin/*",
     "*.js"
   ],
-  "scripts": {
-    "lint": "eslint --ignore-path .gitignore .",
-    "prepare": "husky install"
-  },
   "dependencies": {
-    "commander": "^11.0.0",
-    "date-fns": "^2.0.0",
+    "commander": "^12.0.0",
+    "date-fns": "^3.0.0",
     "gray-matter": "^4.0.0"
   },
-  "devDependencies": {
-    "eslint": "8.44.0",
-    "eslint-config-airbnb-base": "15.0.0",
-    "eslint-plugin-import": "2.27.5",
-    "husky": "8.0.3",
-    "lint-staged": "13.2.3"
-  },
   "engines": {
-    "node": ">=16"
+    "node": ">=20"
   }
 }
